@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Desafio de Estrutura HTML
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Home
+<li><a href="#empresa">Empresa
+<li><a>Serviços</li>
+<li><a href="#contato">Contato
+</ul>
+</nav>
+
+<h1>Corrija Este Documento HTML</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Início</h2>
+<p>Seja bem-vindo ao desafio de correção!
+<ul>
+<li>Aprender praticando
+<li>Encontrar erros escondidos
+<li>Organizar código corretamente
+</ul>
+</section>
+
+<aside>
+<h3>Notícia Rápida
+<p>Nova turma de HTML e CSS disponível
+<a href="#">Inscreva-se</aside>
+
+<section id="empresa">
+<h2>Sobre a Empresa
+<p>Empresa focada na formação de novos programadores.
+<ul>
+<li>Compromisso com a qualidade
+<li>Metodologias Ágeis
+<li>Plataforma Atualizada
+</ul>
+</section>
+
+<section id="servicos">
+<h2>O que oferecemos</h2>
+<p>Veja os serviços disponíveis para você:
+<ol>
+<li>Curso Front-End Completo
+<li>Curso de Back-End Profissional
+<li>Curso de Desenvolvimento Mobile
+</ol>
+</section>
+
+<aside>
+<h3>Eventos</h3>
+<p>Participe das próximas lives gratuitas
+<a href="#eventos">Saiba Mais</aside>
+
+<section id="contato">
+<h2>Fale Conosco</h2>
+<p>Estamos prontos para tirar suas dúvidas.
+<ul>
+<li>Email: atendimento@exemplo.com
+<li>Telefone: (11) 95555-5555
+<li>Facebook: /empresaexemplo
+</ul>
+
+<form action=enviar.php method=post
+<label>Nome
+<input name=nome type=text
+<label>Email
+<input type=email name=email
+<label>Mensagem
+<textarea name=mensagem rows=5 cols=30
+<input type=submit value=Enviar>
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 Empresa Exemplo</p>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#empresa">Empresa
+<li><a href="#servicos">Serviços
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

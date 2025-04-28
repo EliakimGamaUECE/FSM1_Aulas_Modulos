@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Treinamento de Correção HTML
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#empresa">Empresa
+<li><a>Serviços
+<li><a href="#contato">Contato</li>
+</ul>
+</nav>
+
+<h1>Bem-vindo ao Site de Treinamento</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Início</h2>
+<p>Explore os conteúdos e encontre os erros escondidos.
+<ul>
+<li>HTML5 Básico
+<li>Listas Ordenadas
+<li>Listas Não Ordenadas
+</ul>
+</section>
+
+<section id="empresa">
+<h2>Sobre a Empresa
+<p>Especializados em ensino a distância.
+<ul>
+<li>Missão: Levar conhecimento a todos
+<li>Visão: Inovação e Inclusão
+<li>Valores: Ética e Compromisso
+</ul>
+
+<aside>
+<h3>Artigos Recentes
+<p>Conheça nossos artigos publicados recentemente
+<a href="#">Ver Artigos</a>
+</aside>
+
+</section>
+
+<section id="servicos">
+<h2>Nossos Serviços
+<p>Serviços voltados à área de tecnologia e educação.
+<ol>
+<li>Plataforma de Cursos
+<li>Consultoria Acadêmica
+<li>Treinamentos Corporativos
+</ol>
+</section>
+
+<aside>
+<h3>Últimas Novidades
+<p>Nova plataforma será lançada em breve
+<a href="#novidades">Saiba mais</aside>
+
+<section id="contato">
+<h2>Contato</h2>
+<p>Entre em contato para mais informações.
+<ul>
+<li>Email: contato@exemplo.com
+<li>Telefone: (11) 98888-8888
+<li>Instagram: @educaweb
+</ul>
+
+<form method=post action=send.php
+<label>Nome
+<input name=nome type=text
+<label>Email
+<input type=email name=email>
+<label>Mensagem
+<textarea name=mensagem rows=4 cols=30
+<input type=submit value="Enviar Contato">
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 Site de Treinamento</p>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#empresa">Empresa
+<li><a href="#servicos">Serviços
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

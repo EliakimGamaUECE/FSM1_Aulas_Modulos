@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Treinamento Intensivo em HTML
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css"
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Home
+<li><a href="#sobre">Sobre
+<li><a href="#cursos">Cursos
+<li><a>Contato</li>
+</ul>
+</nav>
+
+<h1>Curso de Programação Web</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Introdução
+<p>Esta é a página inicial do treinamento.
+<ul>
+<li>HTML5
+<li>CSS3
+<li>JavaScript
+</ul>
+</section>
+
+<aside>
+<h3>Fique Ligado</h3>
+<p>Inscrições abertas para novas turmas
+<a href="#">Clique aqui para saber mais</aside>
+
+<section id="sobre">
+<h2>Sobre Nós</h2>
+<p>Somos especialistas no ensino de desenvolvimento web.
+<ul>
+<li>Experiência de 10 anos
+<li>Projetos premiados
+<li>Inovação constante
+</ul>
+</section>
+
+<section id="cursos">
+<h2>Cursos Disponíveis
+<p>Veja nossas opções de aprendizado:
+<ol>
+<li>Curso de HTML e CSS
+<li>Curso de JavaScript
+<li>Curso de Front-End Avançado
+</ol>
+<aside>
+<h3>Promoções
+<p>Descontos especiais neste mês
+<a href="#">Saiba mais</aside>
+</section>
+
+<section id="contato">
+<h2>Fale Conosco
+<p>Envie sua dúvida ou sugestão.
+<ul>
+<li>Email: contato@curso.com
+<li>Telefone: (11) 90000-0000
+<li>Redes sociais: @cursoweb
+</ul>
+
+<form action="enviar.php" method=post
+<label>Nome
+<input name=nome type=text
+<label>Email
+<input name=email type=email>
+<label>Mensagem
+<textarea name=mensagem rows=5 cols=30
+<input type=submit value=Enviar>
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 Curso de Programação Web</p>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#sobre">Sobre
+<li><a href="#cursos">Cursos
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

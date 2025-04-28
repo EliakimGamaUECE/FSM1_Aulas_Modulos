@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Site para Correção de Erros
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Home
+<li><a href="#servicos">Serviços
+<li><a>Sobre
+<li><a href="#contato">Contato</li>
+</ul>
+</nav>
+
+<h1>Corrija os Erros Desta Página</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Bem-vindo!</h2>
+<p>Este site contém diversos erros para praticar correções.
+<ul>
+<li>HTML Básico
+<li>Listas Ordenadas
+<li>Semântica Web
+</ul>
+</section>
+
+<section id="servicos">
+<h2>Nossos Serviços</h2>
+<p>Veja o que oferecemos para ajudar você:
+<ol>
+<li>Consultorias
+<li>Workshops
+<li>Mentorias
+</ol>
+
+<aside>
+<h3>Atualizações</h3>
+<p>Novos serviços disponíveis a partir de julho!
+<a href="#">Saiba mais</a>
+</aside>
+
+</section>
+
+<section id="sobre">
+<h2>Sobre a Gente
+<p>Somos apaixonados por ensinar programação.</p>
+<ul>
+<li>Experiência no mercado
+<li>Equipe qualificada
+<li>Resultados comprovados
+</ul>
+</section>
+
+<aside>
+<h3>Depoimentos</h3>
+<p>Leia o que nossos alunos falam sobre nossos cursos
+<a href="#">Clique aqui</aside>
+
+<section id="contato">
+<h2>Entre em Contato</h2>
+<p>Nos mande uma mensagem:
+<ul>
+<li>Email: contato@exemplo.com
+<li>Telefone: (11) 99999-9999
+<li>Instagram: @cursohtml
+</ul>
+
+<form action="enviar.php" method=post
+<label>Nome:
+<input name=nome type=text>
+<label>E-mail
+<input type=email name=email
+<label>Sua mensagem
+<textarea name=mensagem rows=5 cols=30
+<input type=submit value=Enviar>
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 Curso HTML - Todos os direitos reservados
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#servicos">Serviços
+<li><a href="#sobre">Sobre
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

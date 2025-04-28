@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Desafio de HTML para Correção
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#sobre">Sobre
+<li><a href="#servicos">Serviços
+<li><a>Contato</li>
+</ul>
+</nav>
+
+<h1>Desafio: Encontre e Corrija Todos os Erros</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Bem-vindo</h2>
+<p>Essa página foi feita para praticar a correção de HTML.
+<ul>
+<li>Fechar tags abertas
+<li>Organizar seções corretamente
+<li>Melhorar a semântica
+</ul>
+</section>
+
+<aside>
+<h3>Dica Rápida
+<p>Valide sempre seu HTML com ferramentas online
+<a href="#">Veja como</aside>
+
+<section id="sobre">
+<h2>Quem Somos</h2>
+<p>Uma equipe focada em ensino de desenvolvimento web.
+<ul>
+<li>Especialistas certificados
+<li>Didática moderna
+<li>Resultados comprovados
+</ul>
+</section>
+
+<section id="servicos">
+<h2>O que Oferecemos</h2>
+<p>Nossos principais serviços:
+<ol>
+<li>Treinamentos de Programação
+<li>Mentorias Individuais
+<li>Desenvolvimento de Sites
+</ol>
+</section>
+
+<aside>
+<h3>Parcerias Novas</h3>
+<p>Estamos com novos parceiros no mercado
+<a href="#parcerias">Confira aqui</aside>
+
+<section id="contato">
+<h2>Entre em Contato</h2>
+<p>Mande uma mensagem:
+<ul>
+<li>Email: suporte@cursoexemplo.com
+<li>WhatsApp: (11) 95555-5555
+<li>Facebook: /cursoexemplo
+</ul>
+
+<form method=post action=contato.php
+<label>Nome
+<input name=nome type=text
+<label>Email
+<input type=email name=email
+<label>Mensagem
+<textarea name=mensagem rows=5 cols=30
+<input type=submit value=Enviar>
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 Curso Exemplo - Todos os Direitos Reservados</p>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#sobre">Sobre
+<li><a href="#servicos">Serviços
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

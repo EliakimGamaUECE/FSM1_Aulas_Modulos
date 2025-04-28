@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Página de Exercício Avançado
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#sobre">Sobre
+<li><a href="#projetos">Projetos
+<li><a>Contato</li>
+</ul>
+</nav>
+
+<h1>Corrija os Problemas desta Página</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Página Inicial
+<p>Exercício de correção prática.
+<ul>
+<li>Verificação de tags
+<li>Estrutura semântica
+<li>Boas práticas
+</ul>
+</section>
+
+<section id="sobre">
+<h2>Quem Somos
+<p>Uma plataforma focada no ensino de HTML e CSS.
+<ul>
+<li>Cursos online
+<li>Projetos práticos
+<li>Suporte contínuo
+</ul>
+</section>
+
+<aside>
+<h3>Dicas Rápidas
+<p>Revise seu código antes de publicar!
+<a href="#">Veja como fazer</a>
+</aside>
+
+<section id="projetos">
+<h2>Projetos Recentes
+<p>Confira o que já desenvolvemos:
+<ol>
+<li>Portal de Notícias
+<li>E-commerce de Livros
+<li>Blog de Tecnologia
+</ol>
+</section>
+
+<aside>
+<h3>Parceiros</h3>
+<p>Conheça nossos parceiros estratégicos
+<a href="#">Saiba mais</aside>
+
+<section id="contato">
+<h2>Fale Conosco</h2>
+<p>Entre em contato usando nossos canais oficiais:
+<ul>
+<li>Email: contato@siteexemplo.com
+<li>WhatsApp: (11) 90000-0000
+<li>LinkedIn: Empresa Exemplo
+</ul>
+
+<form action="enviar.php" method=post
+<label>Nome
+<input name=nome type=text
+<label>Email
+<input name=email type=email>
+<label>Mensagem
+<textarea name=mensagem rows=4 cols=30
+<input type=submit value=Enviar>
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 Plataforma de Estudos
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#sobre">Sobre
+<li><a href="#projetos">Projetos
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

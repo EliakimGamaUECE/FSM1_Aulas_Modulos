@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Exercício de HTML Semântico
+<meta charset="UTF-8">
+<!-- Sem meta viewport novamente -->
+<link rel="stylesheet" href="style.css"
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#sobre">Sobre
+<li><a href="#projetos">Projetos
+<li><a>Contato
+</ul>
+</nav>
+
+<h1>Projeto de Treinamento</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Página Principal
+<p>Explore nosso conteúdo e aprenda cada dia mais!
+<ul>
+<li>HTML5
+<li>CSS3
+<li>JavaScript Básico
+</ul>
+</section>
+
+<aside>
+<h3>Dica do Dia
+<p>Pratique todos os dias para melhorar suas habilidades
+<a href="#">Veja mais dicas</aside>
+
+<section id="sobre">
+<h2>Sobre Nós
+<p>Uma comunidade apaixonada por tecnologia.
+<ul>
+<li>Missão: Compartilhar conhecimento
+<li>Visão: Educação acessível
+<li>Valores: Colaboração e Inovação
+</ul>
+</section>
+
+<section id="projetos">
+<h2>Projetos Recentes
+<p>Conheça alguns dos nossos últimos projetos:
+<ol>
+<li>Portal Educacional
+<li>Plataforma de Cursos Online
+<li>Aplicativo de Estudos
+</ol>
+</section>
+
+<section id="contato">
+<h2>Fale Conosco
+<p>Envie suas dúvidas e sugestões.
+<ul>
+<li>Email: suporte@educaonline.com
+<li>WhatsApp: (11) 90000-0000
+<li>Redes Sociais: @educaonline
+</ul>
+
+<!-- Formulário com erros e inconsistências -->
+<form method=post action="enviar.php"
+<label>Nome
+<input name=nome type=text
+<label>E-mail
+<input name=email type=email>
+<label>Mensagem
+<textarea name=mensagem cols=40 rows=5
+<input type=submit value="Enviar">
+</section>
+
+</main>
+
+<footer>
+<p>Todos os direitos reservados 2025
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#sobre">Sobre Nós
+<li><a href="#projetos">Projetos
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

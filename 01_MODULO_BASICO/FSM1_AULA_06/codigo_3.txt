@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Exercício Completo
+<meta charset="UTF-8">
+<!-- Faltando meta viewport -->
+<link rel="stylesheet" href="style.css"
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#servicos">Serviços</li>
+<li><a href="#sobre">Sobre Nós
+<li><a>Contato</li>
+</ul>
+</nav>
+
+<h1>Página de Teste de Estrutura</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Bem-vindo!</h2>
+<p>Conheça nossos projetos e cursos online.
+<ul>
+<li>Curso de HTML
+<li>Curso de CSS
+<li>Curso de JavaScript
+</ul>
+
+<aside>
+<h3>Novidades</h3>
+<p>Confira os novos conteúdos que acabaram de chegar.
+<a href="#">Veja mais</aside>
+
+</section>
+
+<section id="servicos">
+<h2>Serviços Disponíveis
+<p>Oferecemos uma variedade de serviços em tecnologia.
+<ol>
+<li>Desenvolvimento de Sites
+<li>Consultoria Digital
+<li>Treinamentos Presenciais
+</ol>
+
+</section>
+
+<section id="sobre">
+<h2>Sobre a Nossa Empresa
+<p>Uma empresa que valoriza o aprendizado contínuo.
+<ul>
+<li>Missão: Democratizar o conhecimento
+<li>Visão: Ser referência em educação online
+<li>Valores: Ética, Compromisso, Inovação
+</ul>
+
+<aside>
+<h3>Outros Projetos
+<p>Conheça nossos projetos sociais na área da educação.
+<a href="#projetos">Clique aqui</aside>
+
+</section>
+
+<section id="contato">
+<h2>Contato
+<p>Entre em contato para mais informações.
+<ul>
+<li>Email: exemplo@empresa.com
+<li>Telefone: (11) 1234-5678
+<li>Redes Sociais: @empresa
+</ul>
+
+<!-- Formulário com estrutura incorreta -->
+<form action=submit.php method=post>
+<label>Nome Completo
+<input type=text name=nome
+<label>Email
+<input name=email type=email>
+<label>Mensagem:
+<textarea name=mensagem rows=4 cols=40
+<input type=submit value=Enviar>
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 Todos os direitos reservados.</p

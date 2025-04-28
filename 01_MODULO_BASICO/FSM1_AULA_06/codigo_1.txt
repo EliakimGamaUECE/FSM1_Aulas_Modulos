@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Exemplo de Estrutura HTML
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Falta fechamento em várias tags do head -->
+
+<body>
+
+<header>
+<h1>Minha Página de Estudos
+<nav>
+<ul>
+<li><a href="#inicio">Início</li>
+<li><a href="#sobre">Sobre
+<li><a href="#servicos">Serviços
+<li><a>Contato</a>
+</ul>
+</nav>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Bem-vindo ao nosso site
+<p>Esta é a página inicial de testes.
+<ul>
+<li>Item Um
+<li>Item Dois
+<li>Item Três
+</ul>
+</section>
+
+<section id="servicos">
+<h2>O que oferecemos
+<p>Veja nossos principais serviços listados abaixo
+<ol>
+<li>Consultoria
+<li>Desenvolvimento Web
+<li>Suporte Técnico
+</ol>
+
+<aside>
+<h3>Notícias Importantes
+<p>Fique atento às atualizações do site.
+<p>Em breve novas turmas abertas.
+<a href="#novidades">Clique aqui</a>
+</aside>
+
+</section>
+
+<section id="sobre">
+<h2>Sobre Nós
+<p>Somos apaixonados por tecnologia e educação
+</section>
+
+<section id="contato">
+<h2>Fale Conosco
+<p>Preencha o formulário abaixo para entrar em contato
+
+<form action="/enviar" method=post
+<label>Nome
+<input type=text name=nome
+<label>Email:
+<input type=email name=email>
+<label>Mensagem
+<textarea name=mensagem rows=4 cols=30
+<input type=submit value=Enviar>
+</section>
+
+<aside>
+<h3>Conteúdo Relacionado
+<p>Veja também nossos cursos online gratuitos.
+</aside>
+
+</main>
+
+<footer>
+<p>Todos os direitos reservados 2025
+<nav>
+<ul>
+<li><a href="#inicio">Início</a>
+<li><a href="#sobre">Sobre</a>
+<li><a href="#contato">Contato</a>
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

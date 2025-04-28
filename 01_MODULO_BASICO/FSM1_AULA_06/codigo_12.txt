@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Treinamento de HTML na Prática
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#sobre">Sobre Nós
+<li><a href="#servicos">Serviços
+<li><a>Contato</li>
+</ul>
+</nav>
+
+<h1>Corrija o Código e Aprenda!</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Bem-vindo ao Curso</h2>
+<p>Aqui você pratica corrigindo estruturas quebradas!
+<ul>
+<li>HTML Básico
+<li>Listas Ordenadas
+<li>Listas Não Ordenadas
+</ul>
+</section>
+
+<aside>
+<h3>Notícia Importante
+<p>Nova versão do site será lançada em breve
+<a href="#">Confira aqui</aside>
+
+<section id="sobre">
+<h2>Sobre o Curso</h2>
+<p>Curso dedicado à prática intensiva de HTML e CSS.
+<ul>
+<li>Material atualizado
+<li>Suporte especializado
+<li>Certificado de conclusão
+</ul>
+</section>
+
+<section id="servicos">
+<h2>Nossos Serviços</h2>
+<p>Além do curso, também oferecemos:
+<ol>
+<li>Workshops presenciais
+<li>Mentorias individuais
+<li>Consultorias para projetos
+</ol>
+</section>
+
+<aside>
+<h3>Últimos Lançamentos</h3>
+<p>Novos módulos liberados este mês
+<a href="#modulos">Veja detalhes</aside>
+
+<section id="contato">
+<h2>Entre em Contato</h2>
+<p>Fale com nossa equipe para mais informações:
+<ul>
+<li>Email: contato@cursoexemplo.com
+<li>WhatsApp: (11) 94444-4444
+<li>Twitter: @cursoexemplo
+</ul>
+
+<form action=enviar.php method=post
+<label>Nome
+<input name=nome type=text
+<label>Email
+<input name=email type=email
+<label>Mensagem
+<textarea name=mensagem rows=5 cols=30
+<input type=submit value="Enviar">
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 Curso Exemplo</p>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#sobre">Sobre Nós
+<li><a href="#servicos">Serviços
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

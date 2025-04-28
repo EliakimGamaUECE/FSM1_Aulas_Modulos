@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Treinamento HTML
+<meta charset="UTF-8">
+<!-- meta viewport faltando -->
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Home</a>
+<li><a href="#empresa">Empresa</li>
+<li><a>Serviços</a>
+<li><a href="#contato">Contato
+</ul>
+</nav>
+
+<h1>Bem-vindo ao Site de Treinamento</h1>
+<!-- h1 depois do nav bagunçado -->
+
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Apresentação
+<p>Este site é um projeto de prática em HTML.
+<ul>
+<li>Introdução ao HTML
+<li>Uso de Tags Semânticas
+<li>Construção de Páginas
+</ul>
+
+<aside>
+<h3>Curiosidades
+<p>O HTML foi criado em 1991 por Tim Berners-Lee
+<a href="#">Saiba Mais</a>
+</aside>
+
+</section>
+
+<section id="empresa">
+<h2>Sobre a Empresa
+<p>Trabalhamos com educação e tecnologia.
+<ul>
+<li>Missão: Ensinar
+<li>Visão: Inovar
+<li>Valores: Compromisso
+</ul>
+</section>
+
+<section id="servicos">
+<h2>Nossos Serviços
+<ol>
+<li>Consultoria
+<li>Treinamentos
+<li>Desenvolvimento de Sites
+</ol>
+
+<aside>
+<h3>Últimas Notícias
+<p>Novas turmas abertas para o próximo semestre!
+<a href="#novidades">Ver mais</a>
+</aside>
+
+</section>
+
+<section id="contato">
+<h2>Entre em Contato
+<p>Fale conosco para saber mais sobre nossos cursos.
+
+<ul>
+<li>Email: contato@empresa.com
+<li>Telefone: (11) 99999-9999
+<li>WhatsApp: (11) 98888-8888
+</ul>
+
+<!-- Formulário incompleto e bagunçado -->
+<form method=post action="/enviar">
+<label>Nome
+<input name=nome>
+<label>Email
+<input type=email name=email
+<label>Assunto:
+<input name=assunto>
+<label>Mensagem
+<textarea name=mensagem rows=5 cols=25
+<input type=submit value=Enviar>
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 - Empresa de Educação
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#empresa">Empresa
+<li><a href="#servicos">Serviços
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

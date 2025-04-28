@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Página de Estudos HTML
+<meta charset="UTF-8">
+<!-- Faltando meta viewport -->
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Home</li>
+<li><a>Empresa
+<li><a href="#servicos">Serviços</li>
+<li><a href="#contato">Contato
+</ul>
+</nav>
+
+<h1>Site de Treinamento</h1>
+<!-- Ordem errada, nav antes do h1 -->
+
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Bem-vindo</h2>
+<p>Você está no melhor site para praticar HTML.
+<ul>
+<li>HTML5
+<li>CSS3
+<li>JavaScript Básico
+</ul>
+
+<aside>
+<h3>Fique Atento</h3>
+<p>Novas turmas abrem em breve.
+<a href="#">Saiba mais</aside>
+
+</section>
+
+<section id="empresa">
+<h2>Sobre a Empresa
+<p>Focados em criar cursos de qualidade e acessíveis.
+<ul>
+<li>Metodologia própria
+<li>Instrutores qualificados
+<li>Plataforma online moderna
+</ul>
+</section>
+
+<section id="servicos">
+<h2>O que oferecemos
+<ol>
+<li>Curso de Front-end
+<li>Curso de Back-end
+<li>Curso FullStack
+</ol>
+<aside>
+<h3>Promoções Especiais
+<p>Descontos para grupos e empresas
+<a href="#">Consulte condições</aside>
+</section>
+
+<section id="contato">
+<h2>Contato</h2>
+<p>Entre em contato conosco.
+<ul>
+<li>Email: contato@treinamento.com
+<li>Telefone: (11) 91234-5678
+</ul>
+
+<!-- Formulário com estrutura errada proposital -->
+<form method=post action="enviar.php"
+<label>Nome
+<input name=nome type=text>
+<label>Email
+<input type=email name=email
+<label>Assunto
+<input name=assunto>
+<textarea name=mensagem rows=5 cols=30
+<input type=submit value="Enviar Mensagem">
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 - Site de Estudos</p>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#empresa">Empresa
+<li><a href="#servicos">Serviços
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>

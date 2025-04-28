@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Desafio de Correção HTML
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#empresa">Empresa</li>
+<li><a href="#servicos">Serviços
+<li><a>Contato</a>
+</ul>
+</nav>
+
+<h1>Pratique a Estrutura HTML</h1>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Comece Aqui
+<p>Aprenda HTML praticando correções.
+<ul>
+<li>Entender a estrutura
+<li>Fechar corretamente as tags
+<li>Organizar o conteúdo
+</ul>
+</section>
+
+<section id="empresa">
+<h2>Sobre a Empresa
+<p>Contribuímos para a formação de novos desenvolvedores.
+<ul>
+<li>Missão: Inspirar o aprendizado
+<li>Visão: Ser referência em educação tecnológica
+<li>Valores: Ética e Compromisso
+</ul>
+</section>
+
+<aside>
+<h3>Depoimentos</h3>
+<p>Veja o que nossos alunos têm a dizer
+<a href="#depoimentos">Leia Mais</aside>
+
+<section id="servicos">
+<h2>Serviços</h2>
+<p>Confira os serviços que oferecemos:
+<ol>
+<li>Mentoria para Programadores
+<li>Criação de Portfólios
+<li>Consultoria de Carreira
+</ol>
+</section>
+
+<aside>
+<h3>Parcerias</h3>
+<p>Conheça nossos parceiros estratégicos
+<a href="#">Saiba Mais</aside>
+
+<section id="contato">
+<h2>Entre em Contato
+<p>Estamos prontos para atender você.
+<ul>
+<li>Email: contato@empresa.com
+<li>Telefone: (11) 99999-9999
+<li>Instagram: @empresaweb
+</ul>
+
+<form action="enviar.php" method=post
+<label>Nome
+<input name=nome type=text
+<label>Email
+<input name=email type=email>
+<label>Mensagem
+<textarea name=mensagem rows=5 cols=30
+<input type=submit value="Enviar Mensagem">
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 Empresa Web</p>
+<nav>
+<ul>
+<li><a href="#inicio">Início
+<li><a href="#empresa">Empresa
+<li><a href="#servicos">Serviços
+<li><a href="#contato">Contato
+</ul>
+</nav>
+</footer>
+
+</body>
+</html>
