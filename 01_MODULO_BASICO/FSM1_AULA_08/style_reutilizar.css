@@ -1,0 +1,181 @@
+/* Reset básico para evitar inconsistências entre navegadores */
+* {
+    margin: 0;                    /* Remove margens padrão */
+    padding: 0;                   /* Remove espaçamentos internos padrão */
+    box-sizing: border-box;      /* Inclui padding e borda no tamanho total do elemento */
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte moderna e legível */
+    background: #f4f6f8;         /* Cor de fundo suave */
+    color: #333;                 /* Cor do texto */
+    line-height: 1.6;            /* Espaçamento entre linhas */
+    padding: 20px;               /* Espaço interno nas bordas da tela */
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;               /* Layout flexível */
+    flex-direction: column;     /* Itens em coluna (imagem e nav) */
+    align-items: center;        /* Centraliza os itens */
+    background-color: #4a90e2;  /* Azul vibrante no fundo */
+    padding: 20px;              /* Espaçamento interno */
+    border-radius: 10px;        /* Bordas arredondadas */
+    color: white;               /* Texto branco */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
+    margin-bottom: 30px;        /* Espaço abaixo do cabeçalho */
+}
+
+/* Ajustes para imagem do header */
+header img {
+    max-width: 100%;            /* Imagem se adapta à largura disponível */
+    height: auto;               /* Altura proporcional */
+    margin-bottom: 15px;        /* Espaço abaixo da imagem */
+}
+
+/* Lista de navegação */
+nav ul {
+    list-style: none;           /* Remove marcadores da lista */
+    display: flex;              /* Itens em linha */
+    gap: 20px;                  /* Espaço entre os itens */
+}
+
+/* Links do menu */
+nav a {
+    text-decoration: none;      /* Remove sublinhado */
+    color: white;               /* Cor branca para contraste */
+    font-weight: bold;          /* Texto em negrito */
+    transition: color 0.3s ease;/* Transição suave de cor */
+}
+
+/* Efeito hover nos links */
+nav a:hover {
+    color: #ffe600;             /* Cor amarelo vibrante ao passar o mouse */
+}
+
+/* Estilo das seções principais */
+main section {
+    background: white;          /* Fundo branco */
+    padding: 20px;              /* Espaçamento interno */
+    margin: 20px 0;             /* Espaço acima e abaixo */
+    border-radius: 10px;        /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra leve */
+}
+
+/* Títulos principais */
+main h1 {
+    margin-bottom: 10px;        /* Espaço abaixo do título */
+    color: #2c3e50;             /* Cor escura para contraste */
+}
+
+/* Parágrafos */
+main p {
+    font-size: 1rem;            /* Tamanho padrão da fonte */
+}
+
+/* Formulário organizado verticalmente */
+form {
+    display: flex;
+    flex-direction: column;     /* Organiza os campos em coluna */
+    gap: 20px;                  /* Espaço entre os blocos (fieldsets) */
+}
+
+/* Blocos de campos do formulário */
+fieldset {
+    border: 2px solid #4a90e2;  /* Borda azul */
+    border-radius: 10px;        /* Bordas arredondadas */
+    padding: 20px;              /* Espaço interno */
+}
+
+/* Título dos fieldsets */
+legend {
+    font-weight: bold;          /* Destaque em negrito */
+    color: #4a90e2;             /* Cor azul */
+}
+
+/* Rótulos dos inputs */
+label {
+    display: inline-block;
+    margin-top: 10px;           /* Espaço acima do rótulo */
+    font-weight: 500;           /* Negrito leve */
+}
+
+/* Campos de entrada e select */
+input, select {
+    padding: 8px;               /* Espaço interno */
+    margin: 5px 0;              /* Espaço acima e abaixo */
+    width: 100%;                /* Ocupa toda a largura disponível */
+    max-width: 400px;           /* Limite máximo de largura */
+    border: 1px solid #ccc;     /* Borda cinza clara */
+    border-radius: 5px;         /* Bordas arredondadas */
+}
+
+/* Ajustes para radio e checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;                /* Tamanho padrão */
+    margin-right: 10px;         /* Espaço entre o input e o texto */
+}
+
+/* Botões de enviar e resetar */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4a90e2;  /* Fundo azul */
+    color: white;               /* Texto branco */
+    border: none;               /* Sem borda */
+    padding: 10px;              /* Espaço interno */
+    cursor: pointer;            /* Cursor de mãozinha */
+    border-radius: 5px;         /* Bordas arredondadas */
+    transition: background 0.3s ease; /* Transição suave */
+    max-width: 200px;           /* Largura máxima */
+}
+
+/* Efeito hover nos botões */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #357ab8; /* Azul um pouco mais escuro */
+}
+
+/* Estilo da barra lateral (aside) */
+aside {
+    background-color: #e2ecf7;  /* Azul claro */
+    padding: 20px;              /* Espaço interno */
+    margin-top: 20px;           /* Espaço acima */
+    border-left: 5px solid #4a90e2; /* Linha vertical azul na esquerda */
+    border-radius: 10px;        /* Bordas arredondadas */
+}
+
+/* Rodapé */
+footer {
+    background-color: #2c3e50;  /* Azul escuro */
+    color: white;               /* Texto branco */
+    padding: 20px;              /* Espaço interno */
+    text-align: center;         /* Centraliza o conteúdo */
+    border-radius: 10px;        /* Bordas arredondadas */
+    margin-top: 30px;           /* Espaço acima */
+}
+
+/* Links no rodapé */
+footer a {
+    margin: 0 10px;             /* Espaço entre os links */
+    color: #ffe600;             /* Amarelo vibrante */
+    text-decoration: none;      /* Sem sublinhado */
+}
+
+/* Efeito hover nos links do rodapé */
+footer a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Menu em coluna */
+        align-items: center;    /* Centraliza os itens */
+    }
+
+    input, select {
+        width: 100%;            /* Inputs ocupam a largura total */
+    }
+}

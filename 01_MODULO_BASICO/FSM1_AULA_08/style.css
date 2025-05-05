@@ -1,0 +1,17 @@
+/* #body{
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+} */
+
+/* .body-class{
+    background-color: rgb(0, 203, 47);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+} */
+
+body{
+    background-color: rgb(203, 0, 14);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+}
