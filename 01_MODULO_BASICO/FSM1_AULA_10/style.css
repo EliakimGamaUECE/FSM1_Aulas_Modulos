@@ -1,0 +1,26 @@
+#div-mae{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+
+#div-filha{
+    background-color: darkkhaki;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border:4px;
+    border-radius: 5px;
+    border-color: blue;
+    border-style: double;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width:400px){
+    #div-filha{
+        background-color: brown;
+        margin: 200px;
+    }
+
+}
