@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>Monte Sua Pizza</h1>
+    <form id="pizzaForm">
+        <label for="nomePizza">Nome da Pizza:</label>
+        <input type="text" id="nomePizza" placeholder="Digite o nome da pizza"><br><br>
+
+        <label for="tamanho">Tamanho:</label>
+        <select id="tamanho">
+            <option value="Pequena">Pequena</option>
+            <option value="Média">Média</option>
+            <option value="Grande">Grande</option>
+        </select><br><br>
+
+        <label>Ingredientes:</label><br>
+        <input type="checkbox" class="sabor" value="🧀"> Queijo<br>
+        <input type="checkbox" class="sabor" value="🍕"> Calabresa<br>
+        <input type="checkbox" class="sabor" value="🍅"> Tomate<br>
+        <input type="checkbox" class="sabor" value="🫒"> Azeitona<br>
+        <input type="checkbox" class="sabor" value="🍄"> Cogumelo<br><br>
+
+        <button type="button" onclick="montarPizza()">Montar Pizza</button>
+    </form>
+
+    <h2 id="nomeExibido" style="display: none;"></h2>
+    <p id="tamanhoExibido" style="display: none;"></p>
+    <div id="pizzaPronta" style="font-size: 2em; margin-top: 20px;"></div>
+</div>
+    <script src="script.js" ></script>
+</body>
+</html>
