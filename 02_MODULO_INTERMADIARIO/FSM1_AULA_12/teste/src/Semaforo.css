@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.semaforo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #333;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100px;
+}
+
+.luz {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #555; /* Apagado */
+  transition: background-color 0.3s ease;
+}
+
+.luz.vermelho {
+  background-color: red;
+}
+
+.luz.amarelo {
+  background-color: yellow;
+}
+
+.luz.verde {
+  background-color: green;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #ccc;
+}
