@@ -1,14 +1,14 @@
-//IMPORTS OU INSTANCIAÇÕES
-const express = require('express');  //import express from "express"
+// IMPORTAÇÕES E INSTANCIAÇÕES
+const express = require('express'); // import express from 'express';
 const app = express();
-const port = 3000;
+const PORT = 3000;
 
-//DEFINIÇÃO DOS MÉTODOS
-app.get('/',(req,res)=>{
-    res.send("Deu certo!!!Uhuuuu")
-});
+//MÉTODOS
+app.get('/',(res)=>{
+    res.send('Deu tudo certo!!Uhuuuu!!!!!')
+})
 
-//START/LIGAÇÃO/EXECUÇÃO/CONFG DO SERVIDOR
-app.listen(port,()=>{
-    console.log(`O servidor tá rodando em: http://localhost:${port}`)
-});
+// START/ INICIAÇÃO/CONFIGURAÇÃO DO SERVIDOR
+app.listen(PORT,()=>{
+    console.log(`Seu servidor está em: http://localhost:${PORT}`)
+})
