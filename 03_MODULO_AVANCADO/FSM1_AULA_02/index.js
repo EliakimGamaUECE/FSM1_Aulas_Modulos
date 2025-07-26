@@ -1,25 +1,27 @@
-const express = require("express");
+// IMPORTAÇÕES E INSTANCIAÇÕES
+const express = require('express'); // import express from 'express';
+const nodemon = require('nodemon');
 const app = express();
 const PORT = 3000;
 
-// Permite ler JSON no body das requisições
 app.use(express.json());
+const livros =[];
 
-const livros = []; // Lista de livros (armazenamento em memória)
+//MÉTODOS
 
-// PEGAR (READ)
+//MÉTODO GET
 app.get("/", (req, res) => {
     res.send(livros);
 });
 
-// INSERIR (CREATE)
+//MÉTODO POST   -----------------------JÁ FIZ, TESTATO E APROVADO!!!
 app.post("/", (req, res) => {
     const livro = req.body;
     livros.push(livro);
     res.send("Livro adicionado com sucesso!");
 });
 
-// EDITAR (UPDATE)
+//MÉDUTO PUT
 app.put("/:id", (req, res) => {
     const id = parseInt(req.params.id);
     const index = livros.findIndex(livro => livro.id === id);
@@ -32,7 +34,7 @@ app.put("/:id", (req, res) => {
     }
 });
 
-// DELETAR (DELETE)
+//DELETE
 app.delete("/:id", (req, res) => {
     const id = parseInt(req.params.id);
     const index = livros.findIndex(livro => livro.id === id);
@@ -45,7 +47,7 @@ app.delete("/:id", (req, res) => {
     }
 });
 
-// INICIALIZAÇÃO
-app.listen(PORT, () => {
-    console.log(`Servidor rodando em: http://localhost:${PORT}`);
-});
+// START/ INICIAÇÃO/CONFIGURAÇÃO DO SERVIDOR
+app.listen(PORT,()=>{
+    console.log(`Seu servidor está em: http://localhost:${PORT}`)
+})
