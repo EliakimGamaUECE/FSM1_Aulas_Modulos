@@ -1,6 +1,6 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const bodyParser = require('body-parser');
+const bodyParser = require('body-parser'); //Novo
 const fs = require('fs');
 const path = require('path');
 

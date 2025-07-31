@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2,
+    "nome": "Eliakim",
+    "senha": "4567",
+    "perfil": "adimin"
+  },
+  {
+    "id": 3,
+    "nome": "Vlad",
+    "senha": "1234",
+    "perfil": "usuario"
+  },
+  {
+    "id": 1,
+    "nome": "Chagas",
+    "senha": "1234",
+    "perfil": "superadmin"
+  }
+]
