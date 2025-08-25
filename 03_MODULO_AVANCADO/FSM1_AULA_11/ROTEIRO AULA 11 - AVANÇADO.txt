@@ -1,0 +1,51 @@
+
+PASSO 1
+npm install prisma --save-dev
+
+PASSO 2
+npm install @prisma/client
+
+PASSO 3
+npx prisma init
+
+PASSO 4
+Criar o model
+model User {
+  id        Int       @id @default(autoincrement())
+  name      String
+  email     String    @unique
+  createdAt DateTime  @default(now())
+  posts     Post[]
+}
+
+model Post {
+  id        Int       @id @default(autoincrement())
+  title     String
+  content   String?
+  published Boolean   @default(false)
+  authorId  Int
+  author    User      @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  createdAt DateTime  @default(now())
+}
+
+PASSO 5
+CRIAR O BANCO NO PG ADMIN
+
+PASSO 6
+CRIAR A CONEXÃO COM O BANCO .env
+DATABASE_URL="postgresql://postgres:SENHA@localhost:5432/novo_banco?schema=public"
+
+PASSO 7 (OPCIONAL)
+TESTAR A CONEXÃO COM COM O BANCO (OPICIONAL)
+npx prisma db pull
+
+PSSSO 8 (OPCIONAL)
+Validar as tabelas criadas para saber se não tem erro
+npx prisma validate
+
+PASSO 9
+CRIAR SUAS TABELAS 
+npx prisma migrate dev --name init
+
+
+
